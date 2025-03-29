@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import Route from './Pages/Routes/Route'
+// import { useLocation } from 'react-router-dom';
+import Header from './Components/Header/Header';
+import Route from './Pages/Routes/Route';
+// import Footer from './Components/Footer/Footer';
 
-function App() {
+const App = () => {
+  // const location = useLocation()
+  // const validPath=['/auth/']
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Header/>
+    {/* {!validPath.some(item=>location.pathname.startsWith(item)) && <Header/>} */}
+      {/* <Route /> */}
+      <Route/>
+      {/* <Footer/> */}
+    </>
+  )
 }
 
-export default App;
+export default App
