@@ -17,19 +17,19 @@ const Index = () => {
     return (
 
         <>
-            <Dashboard />
-            <ImageSection />
-            <Aboutus />
-            <Searchbar />
-            <HorseListings />
-            <Section6 />
-            <Harbel />
-            <Services />
-            <FAQ />
-            <Testimonials />
-            <Latest />
-            <Seactiion10 />
-            <Footer />
+            <Dashboard /> 
+              <ImageSection />  
+             <Aboutus /> 
+            <Searchbar />  
+             <HorseListings />  
+             <Section6 />
+             <Harbel /> 
+           <Services /> 
+            <FAQ />  
+            <Testimonials /> 
+            <Latest /> 
+            <Seactiion10 /> 
+            <Footer />    
         </>
     )
 }

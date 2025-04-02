@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/font.css'
+import './css/font-sizes.css'
 // import Route from './Pages/Routes/Route'
 // import { useLocation } from 'react-router-dom';
 import Header from './Components/Header/Header';

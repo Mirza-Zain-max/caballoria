@@ -5,7 +5,7 @@ const Searchbar = () => {
     return (
         <main className='mt-5 mb-3' style={{ backgroundColor: " #F5F9F5" }}>
             <Container>
-                <Card className=' my-5 bg-transparent border-0 p-5'>
+                <Card className='custom-form bg-transparent border-0 p-5'>
                     <Row className="gy-4"> {/* Added gy-4 for vertical spacing */}
                         <Col xs={12} md={6} lg={4}>
                             <Form.Group className="mb-3"> {/* Added mb-3 for bottom spacing */}
