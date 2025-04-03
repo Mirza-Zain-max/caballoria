@@ -52,7 +52,7 @@ body {
         background-color: #4FB84F;
         height: 40px;
         width: 40px;
-        border-radius: 50%;
+        border-radius: 60%;
         left: 0;
         margin: auto;
         right: 0;
@@ -79,10 +79,11 @@ body {
         background-position: center;
     }
 }
-
 .custom-form {
     .form-control {
         min-height: 45;
         border-radius: 5px;
     }
 }
+
+
