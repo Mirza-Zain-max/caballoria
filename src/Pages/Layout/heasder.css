@@ -1,0 +1,38 @@
+.nav-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  .active-link {
+    color: green !important;
+    font-weight: bold;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+  }
+  
+  @media (max-width: 991px) {
+    .text-center.w-100 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  } 
+  
+  .image{
+    width: 377px;
+    height: auto;
+  }
+
+  @media (max-width: 900px) {
+    .image{
+      width: 350px;
+      height: auto;
+    }
+  }
+  @media (max-width: 600px) {
+    .image{
+      width: 250px;
+      height: auto;
+    }
+  }

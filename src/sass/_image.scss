@@ -1,0 +1,31 @@
+.blog-header {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 12px 0;
+}
+
+.blog-image-container {
+  position: absolute;
+  margin-top: 0; // Ensure koi extra gap na ho
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; // White text
+}
+.blog-subtext {
+  color: white;
+}

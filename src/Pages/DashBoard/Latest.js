@@ -5,7 +5,7 @@ import bgConta from "../Assets/Image/Scree.png"
 
 const Latest = () => {
     return (
-        <main className=''>
+        <main>
             <Container>
                 <Row className='justify-content-center my-4'>
                     <Col xs={12} md={8} lg={6} className='text-center'>
@@ -13,7 +13,7 @@ const Latest = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col  className='mt-3 '>
+                    <Col className='mt-3 '>
                         <h3 className='text-center fw-bold'>Stay Up To Date With Our Latest Posts <br /> And Blog</h3>
                     </Col>
                 </Row>
@@ -21,17 +21,17 @@ const Latest = () => {
                     <Col xs={10} md={8} lg={3} className=' '>
                         <Card>
                             <Image src={bgContainer} className='img-fluid p-1' />
-                            </Card>
+                        </Card>
                     </Col>
                     <Col xs={10} md={8} lg={3} className=' '>
                         <Card>
                             <Image src={bgConta} className='img-fluid p-1' />
-                            </Card>
+                        </Card>
                     </Col>
                     <Col xs={10} md={8} lg={3} className=' '>
                         <Card>
                             <Image src={bgContainer} className='img-fluid p-1' />
-                            </Card>
+                        </Card>
                     </Col>
                 </Row>
             </Container>

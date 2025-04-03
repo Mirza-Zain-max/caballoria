@@ -3,12 +3,12 @@ import { Navbar, Nav, Container, Image, Button, Dropdown } from "react-bootstrap
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-bootstrap/Navbar";
-import './header.css'
-import Logo from "../../Pages/Icons/logo.png";
-import Shop from "../../Pages/Icons/shop.png";
+import './heasder.css'
+import Logo from "../../Pages/Icons/Frame 7.png";
+import Shop from "../../Pages/Icons/shope.png";
 import { FaUserCircle } from "react-icons/fa";
 
-const Header = () => {
+const Heasder = () => {
     const [expanded, setExpanded] = useState(false);
     const [language, setLanguage] = useState("English");
 
@@ -16,7 +16,7 @@ const Header = () => {
         setLanguage(lang);
     };
     return (
-        <Navbar expand="lg" expanded={expanded} style={{ backgroundColor: "transparent" }}>
+        <Navbar expand="lg" expanded={expanded} className="blog-header" >
             <Container>
                 <Navbar.Brand>
                     <Image src={Logo} className="img-fluid image mt-1 me-2" alt="Logo" />
@@ -48,10 +48,10 @@ const Header = () => {
                             <Image src={Shop} className="img-fluid" alt="Shop" />
                         </NavLink>
                         <Button className="bg-transparent border-0">
-                            <span className="text-dark">Login</span> <FaUserCircle className="fs-4 text-success" />
+                            <span className="text-light">Login</span> <FaUserCircle className="fs-4" style={{color:"#4fb84f"}} />
                         </Button>
                         <Dropdown>
-                            <Dropdown.Toggle className="bg-transparent mt-2" variant="light" id="dropdown-basic">
+                            <Dropdown.Toggle className="bg-transparent mt-2 border-0" variant="dark" id="dropdown-basic">
                                 {language}
                             </Dropdown.Toggle>
                             <Dropdown.Menu>
@@ -66,4 +66,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Heasder;

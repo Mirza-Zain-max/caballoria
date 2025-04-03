@@ -11,8 +11,9 @@ import { Route, Routes } from 'react-router-dom';
 // import ViewSheet from '../DashBoard/ViewSheet';
 // import TrackShipment from '../DashBoard/Tracking';
 // import AddShipment from '../DashBoard/AddShipment';
-import Dashboard from '../DashBoard/Dashboard';
+// import Dashboard from '../DashBoard/Dashboard';
 import Index from '../DashBoard';
+import BlogIndex from '../Blog';
 // import Boking from '../DashBoard/Booking';
 
 const FrontEnd = () => {
@@ -27,6 +28,7 @@ const FrontEnd = () => {
 
       {/* Private Routes (Only accessible to authenticated users) */}
       <Route path='/' element={<Index/>}/>
+      <Route path='/blog' element={<BlogIndex/>}/>
       {/* <Route element={<PrivateRoutes />}> */}
       {/* <Route path='/boking' element={<Boking/>} />
       <Route path='/booking' element={<AddShipment/>} />

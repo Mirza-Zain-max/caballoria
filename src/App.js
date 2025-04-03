@@ -14,7 +14,7 @@ const App = () => {
   // const validPath=['/auth/']
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     {/* {!validPath.some(item=>location.pathname.startsWith(item)) && <Header/>} */}
       {/* <Route /> */}
       <Route/>

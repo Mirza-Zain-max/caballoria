@@ -98,15 +98,14 @@ const FAQ = () => {
                             <br />
                             We've Got Answers!
                         </h2>
-
                         {/* Service Transport Button with React Bootstrap styling */}
                         <div className="d-inline-flex mt-3">
-                            <div 
-                                className="d-flex p-3 align-items-center border border-black rounded-pill overflow-hidden" 
+                            <div
+                                className="d-flex p-3 align-items-center border border-black rounded-pill overflow-hidden"
                                 style={{ borderWidth: '5px', borderColor: '#0078d7', cursor: 'pointer' }}
                                 onClick={() => console.log('Button clicked')}
                             >
-                                <span className="px-4 py-2  text-white fw-medium" style={{ borderRadius: '300px  300px' ,backgroundColor: "#4FB84F" }}>
+                                <span className="px-4 py-2  text-white fw-medium" style={{ borderRadius: '300px  300px', backgroundColor: "#4FB84F" }}>
                                     Unser Service
                                 </span>
                                 <span className="px-4 py-2 bg-white text-dark">

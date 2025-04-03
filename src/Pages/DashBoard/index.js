@@ -12,11 +12,13 @@ import Testimonials from './Testimonials'
 import Latest from './Latest'
 import Seactiion10 from './Seactiion10'
 import Footer from '../../Components/Footer/Footer'
+import Header from '../../Components/Header/Header'
 
 const Index = () => {
     return (
 
         <>
+        <Header/>
             <Dashboard />
             <ImageSection />
             <Aboutus />
