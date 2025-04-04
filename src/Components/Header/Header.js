@@ -16,10 +16,12 @@ const Header = () => {
         setLanguage(lang);
     };
     return (
-        <Navbar expand="lg" expanded={expanded} style={{ backgroundColor: "transparent" }}>
+        <Navbar expand="lg" expanded={expanded} style={{ backgroundColor: "transparent", fontSize: "14.4px" }}>
             <Container>
                 <Navbar.Brand>
-                    <Image src={Logo} className="img-fluid image mt-1 me-2" alt="Logo" />
+                    <NavLink to="/" className="nav-link" onClick={() => setExpanded(false)}>
+                        <Image src={Logo} className="img-fluid image mt-1 me-2" alt="Logo" />
+                    </NavLink>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : true)} className="ms-auto" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -48,7 +50,7 @@ const Header = () => {
                             <Image src={Shop} className="img-fluid" alt="Shop" />
                         </NavLink>
                         <Button className="bg-transparent border-0">
-                            <span className="text-dark">Login</span> <FaUserCircle className="fs-4 text-success" />
+                            <span className="text-dark">Login</span> <FaUserCircle className="fs-4" style={{ color: "#4FB84F" }} />
                         </Button>
                         <Dropdown>
                             <Dropdown.Toggle className="bg-transparent mt-2" variant="light" id="dropdown-basic">

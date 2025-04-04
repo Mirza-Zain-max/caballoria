@@ -2,12 +2,12 @@
     color: rgb(255, 255, 255);
   }
   
-  .active-link {
-    color: green !important;
+  .active-link2 {
+    color: #4FB84F !important;
     font-weight: bold;
   }
   
-  .navbar-light .navbar-nav .nav-link {
+  .navbar-light2 .navbar-nav .nav-link {
     color: rgb(255, 255, 255);
   }
   

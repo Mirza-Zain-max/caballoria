@@ -14,6 +14,7 @@ import { Route, Routes } from 'react-router-dom';
 // import Dashboard from '../DashBoard/Dashboard';
 import Index from '../DashBoard';
 import BlogIndex from '../Blog';
+import ShopIndex from '../Shop';
 // import Boking from '../DashBoard/Booking';
 
 const FrontEnd = () => {
@@ -29,6 +30,7 @@ const FrontEnd = () => {
       {/* Private Routes (Only accessible to authenticated users) */}
       <Route path='/' element={<Index/>}/>
       <Route path='/blog' element={<BlogIndex/>}/>
+      <Route path='/shop' element={<ShopIndex/>} />
       {/* <Route element={<PrivateRoutes />}> */}
       {/* <Route path='/boking' element={<Boking/>} />
       <Route path='/booking' element={<AddShipment/>} />
