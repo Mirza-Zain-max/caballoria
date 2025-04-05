@@ -1,9 +1,10 @@
 // NotFound.js
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const NotFound = () => {
+    const navigation = useNavigate()
   return (
     <Container className="text-center" style={{ marginTop: '100px' }}>
       <Row>
@@ -12,11 +13,10 @@ const NotFound = () => {
           <p style={{ fontSize: '1.5rem', marginBottom: '20px' }}>
             Oops! The page you're looking for doesn't exist.
           </p>
-          <Link to="/">
-            <Button variant="primary" size="lg">
-              Go Back Home
+         
+            <Button variant="primary" size="lg" onClick={() => navigation(-1)}>
+              Go Back 
             </Button>
-          </Link>
         </Col>
       </Row>
     </Container>
