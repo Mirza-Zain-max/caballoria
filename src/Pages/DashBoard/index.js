@@ -11,28 +11,26 @@ import FAQ from './FAQ'
 import Testimonials from './Testimonials'
 import Latest from './Latest'
 import Seactiion10 from './Seactiion10'
-import Footer from '../../Components/Footer/Footer'
-import Header from '../../Components/Header/Header'
-
+import MainLayout from '../../Components/mainLayout/mainLayout'
 const Index = () => {
     return (
 
-        <>
-        <Header/>
-            <Dashboard />
-            <ImageSection />
-            <Aboutus />
-            <Searchbar />
-            <HorseListings />
-            <Section6 />
-            <Harbel />
-            <Services />
-            <FAQ />
-            <Testimonials />
-            <Latest />
-            <Seactiion10 />
-            <Footer />
-        </>
+        <MainLayout isTransparent={false}>
+            <>
+                <Dashboard />
+                <ImageSection />
+                <Aboutus />
+                <Searchbar />
+                <HorseListings />
+                <Section6 />
+                <Harbel />
+                <Services />
+                <FAQ />
+                <Testimonials />
+                <Latest />
+                <Seactiion10 />
+            </>
+        </MainLayout>
     )
 }
 

@@ -1,0 +1,16 @@
+/* Tabs Styling */
+#product-tabs .nav-link {
+    color: #000000 !important; 
+    margin-left: 10px;    /* Black text for all tabs */
+    background-color:#ffffff ;
+    border: none !important;
+    border-radius: 0px;
+  }
+  
+  #product-tabs .nav-link.active {
+    color: #ffffff !important;
+    background-color: #4FB84F !important;
+    font-weight: 600;
+    border-bottom: 2px solid black !important;
+  }
+  

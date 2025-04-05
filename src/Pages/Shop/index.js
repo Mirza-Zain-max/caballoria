@@ -1,17 +1,14 @@
 import React from 'react'
 import ShopSection from './ShopSection'
-import Heasder from '../Layout/heasder'
 import ShopCard from './ShopCard'
-import Footer from '../../Components/Footer/Footer'
+import MainLayout from '../../Components/mainLayout/mainLayout'
 
 const ShopIndex = () => {
   return (
-   <>
-   <Heasder/>
-   <ShopSection/>
-   <ShopCard/>
-   <Footer/>
-   </>
+    <MainLayout isTransparent={true}>
+      <ShopSection />
+      <ShopCard />
+    </MainLayout>
   )
 }
 

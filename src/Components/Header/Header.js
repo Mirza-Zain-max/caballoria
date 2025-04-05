@@ -46,7 +46,7 @@ const Header = () => {
                         </NavLink>
                     </Nav>
                     <Nav className={`me-auto  ${expanded ? "w-100 d-flex flex-column align-items-center" : ""}`}>
-                        <NavLink to="/shop1" className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")} onClick={() => setExpanded(false)}>
+                        <NavLink to="/product" className={({ isActive }) => (isActive ? "nav-link active-link" : "nav-link")} onClick={() => setExpanded(false)}>
                             <Image src={Shop} className="img-fluid" alt="Shop" />
                         </NavLink>
                         <Button className="bg-transparent border-0">
