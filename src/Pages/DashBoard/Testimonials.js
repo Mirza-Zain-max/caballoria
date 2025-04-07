@@ -145,7 +145,7 @@ const Testimonials = () => {
     // Function to render slides
     const renderSlides = () => {
         return [...Array(8)].map((_, i) => (
-            <SwiperSlide key={i}>
+            <SwiperSlide key={i} style={{ maxWidth: "25rem" }}>
                 <Image
                     src={images[i % 2]} // Alternate between divCard and divCard2
                     className='w-100'
