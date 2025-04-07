@@ -205,6 +205,12 @@
   .fs_09{
     font-size: 0.8rem;
   }
+  .fs_10{
+    font-size: 0.9rem;
+  }
+  .fs_24{
+    font-size: 2.1rem;
+  }
   .fs_40{
     font-size: 3.7rem;
   }
@@ -215,6 +221,12 @@
 @media screen and (max-width:780px) {
   .fs_09{
     font-size: 0.6rem;
+  }
+  .fs_10{
+    font-size: 0.7rem;
+  }  
+  .fs_24{
+    font-size: 1.8rem;
   }
   .fs_40{
     font-size:  3.3rem;

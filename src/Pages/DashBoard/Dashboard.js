@@ -5,7 +5,7 @@ import Hourse from "../Assets/Image/Hourse.png"
 const Dashboard = () => {
     return (
         <main style={{ backgroundColor: "#f8f7f5" }}>
-            <Container className='my-5' >
+            <Container className=' mb-5' >
                 <Row >
                     <Col sm={12} md={12} lg={6}>
                         <Card className='border-0 mt-5 bg-transparent' style={{ letterSpacing: "2px", lineHeight: "1", padding: "20px" }}>

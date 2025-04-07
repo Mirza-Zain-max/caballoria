@@ -20,7 +20,7 @@ const ShopCard = () => {
                         <span className='fs_09 text-muted'>Showing all {products.length} results</span>
                     </Col>
                     <Col xs={12} sm={6} className="text-sm-end mt-2 mt-sm-0">
-                        <DropdownButton id="dropdown-basic-button" variant='success' title="Default sorting">
+                        <DropdownButton id="dropdown-basic-button" variant='light' title="Default sorting">
                             <Dropdown.Item href="#/action-1">Default sorting</Dropdown.Item>
                             <Dropdown.Item href="#/action-2">Sort by popularity</Dropdown.Item>
                             <Dropdown.Item href="#/action-3">Sort by average rating</Dropdown.Item>

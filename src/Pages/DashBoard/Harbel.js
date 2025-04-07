@@ -111,7 +111,7 @@ const Harbel = () => {
   return (
     <Container fluid className="mt-5">
       <Row className="d-flex justify-content-center align-items-center text-center">
-        <Col xs={12} md={8} lg={12} className='d-flex justify-content-center align-items-center text-center'>
+        <Col xs={12} md={12} lg={12} className='d-flex justify-content-center align-items-center text-center'>
           <div style={{ letterSpacing: "1.9px" }} className='inter-regular fs_10 border-1 border-black bg-black text-light w-25 '>
             TOP CLASSES FOR HORSE RIDING
           </div>
